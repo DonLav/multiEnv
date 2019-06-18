@@ -1,0 +1,38 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "next-unicorn-prod-20190618133545-authRole",
+            "UnauthRoleArn": "arn:aws:iam::070277303818:role/next-unicorn-prod-20190618133545-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::070277303818:role/next-unicorn-prod-20190618133545-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "next-unicorn-prod-20190618133545-deployment",
+            "UnauthRoleName": "next-unicorn-prod-20190618133545-unauthRole",
+            "StackName": "next-unicorn-prod-20190618133545",
+            "StackId": "arn:aws:cloudformation:us-east-2:070277303818:stack/next-unicorn-prod-20190618133545/9910a320-91c5-11e9-91b2-02ba814fbd16"
+        }
+    },
+    "test": {
+        "awscloudformation": {
+            "AuthRoleName": "next-unicorn-test-20190618133812-authRole",
+            "UnauthRoleArn": "arn:aws:iam::070277303818:role/next-unicorn-test-20190618133812-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::070277303818:role/next-unicorn-test-20190618133812-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "next-unicorn-test-20190618133812-deployment",
+            "UnauthRoleName": "next-unicorn-test-20190618133812-unauthRole",
+            "StackName": "next-unicorn-test-20190618133812",
+            "StackId": "arn:aws:cloudformation:us-east-2:070277303818:stack/next-unicorn-test-20190618133812/f09285f0-91c5-11e9-85ba-0658482cfd4e"
+        }
+    },
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "next-unicorn-dev-20190618133954-authRole",
+            "UnauthRoleArn": "arn:aws:iam::070277303818:role/next-unicorn-dev-20190618133954-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::070277303818:role/next-unicorn-dev-20190618133954-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "next-unicorn-dev-20190618133954-deployment",
+            "UnauthRoleName": "next-unicorn-dev-20190618133954-unauthRole",
+            "StackName": "next-unicorn-dev-20190618133954",
+            "StackId": "arn:aws:cloudformation:us-east-2:070277303818:stack/next-unicorn-dev-20190618133954/2d3f0e10-91c6-11e9-b90a-022c6f51bf82"
+        }
+    }
+}
